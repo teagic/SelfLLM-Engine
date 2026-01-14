@@ -1,4 +1,4 @@
-# SelfLLM-Engine
+# SelfLLM-LLaMA3
 \[ [English](README.md) | 中文 \]
 
 <img src="LLaMA.jpg" alt="outline" width="800"/>
@@ -134,11 +134,15 @@ python eval_model.py --model_mode 2
 ## 项目结果：
 - 预训练后的运行实例
 <img src="Pre-trained.png" alt="outline" width="800"/>
+
 - 微调后的运行实例
 <img src="Fine-tuned.png" alt="outline" width="800"/>
+
 - 蒸馏思维链后的运行实例
 <img src="distilling.png" alt="outline" width="800"/>
+
 # 注：
+
 - 训练后的模型权重文件：
 ```bash
 https://pan.baidu.com/s/1qCn3EohZEX9yy4zlsY-wiA?pwd=h1ue
