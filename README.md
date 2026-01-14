@@ -75,7 +75,7 @@ python SFT.py
 python eval_model.py --model_mode 1
 ```
 
-## Model Long Text Training
+## Long-Context Training
 
 - Inheriting the SFT training code, the only difference is that this time, question-answer pairs with a length of 512-1024 are used for training, allowing the model to have capabilities within this range.
 
@@ -112,7 +112,7 @@ python SFT.py
 python eval_model.py --model_mode 1
 ```
 
-## DeepSeek-R1 Mind Chain Distillation
+## DeepSeek-R1 CoT Distillation
 
 ### R1 distillation dataset
 - Download command：
@@ -157,3 +157,4 @@ python eval_model.py --model_mode 2
 ```bash
 https://pan.baidu.com/s/1qCn3EohZEX9yy4zlsY-wiA?pwd=h1ue
 ```
+
