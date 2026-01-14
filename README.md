@@ -144,13 +144,16 @@ python eval_model.py --model_mode 2
 ## Project Results：
 - Pre-trained running instances
 <img src="Pre-trained.png" alt="outline" width="800"/>
+
 - Fine-tuned running example
 <img src="Fine-tuned.png" alt="outline" width="800"/>
-- Execution example after distilling the COT
+
+- Execution example after distilling the CoT
 <img src="distilling.png" alt="outline" width="800"/>
+
 # PS：
+
 - The trained model weight file：
 ```bash
 https://pan.baidu.com/s/1qCn3EohZEX9yy4zlsY-wiA?pwd=h1ue
 ```
-Pick-up code: h1ue
